@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://files.catbox.moe/w4cxbd.jpg" alt="DADMARK Banner" width="800"/>
+  <img src="https://files.catbox.moe/u0lxcx.jpg" alt="DADMARK Banner" width="800"/>
 </p>
 
 <p align="center">
