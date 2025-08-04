@@ -63,15 +63,32 @@ const {
   setInterval(clearTempDir, 5 * 60 * 1000);
   
   //===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("Caseyrhodes~", '');
-const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
-filer.download((err, data) => {
-if(err) throw err
-fs.writeFile(__dirname + '/sessions/creds.json', data, () => {
-console.log("Session downloaded ✅")
-})})}
+
+// Node.js built-in base64 decoder
+const atob = (str) => Buffer.from(str, 'base64').toString('utf8');
+
+async function initializeSession() {
+    const credsPath = __dirname + '/sessions/creds.json';
+    const base64Session = process.env.SESSION_ID;
+
+    if (!base64Session) {
+        return console.log('❌ Please add your session to SESSION_ID env !!');
+    }
+
+    try {
+        const decoded = atob(base64Session);
+
+        if (!fs.existsSync(credsPath) || base64Session !== "zokk") {
+            console.log("📡 Connecting...");
+            fs.writeFileSync(credsPath, decoded, "utf8");
+            console.log("✅ Session downloaded");
+        }
+    } catch (e) {
+        console.log("❌ Session is invalid: " + e.message);
+    }
+}
+
+initializeSession();
   
   const express = require("express");
   const app = express();
