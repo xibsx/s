@@ -390,43 +390,42 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Download Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• facebook
-┃◈┃• mediafire
-┃◈┃• tiktok
-┃◈┃• twitter
-┃◈┃• Insta
-┃◈┃• apk
-┃◈┃• img
-┃◈┃• spotify
-┃◈┃• play
-┃◈┃• play2
-┃◈┃• play3
-┃◈┃• tt2
-┃◈┃• audio
-┃◈┃• playx
-┃◈┃• video
-┃◈┃• video1
-┃◈┃• ytmp3
-┃◈┃• ytmp4
-┃◈┃• pdf
-┃◈┃• sss
-┃◈┃• song
-┃◈┃• darama
-┃◈┃• git
-┃◈┃• gdrive
-┃◈┃• smovie
-┃◈┃• baiscope 
-┃◈┃• ginisilia 
-┃◈┃• bible
-┃◈┃• xxx
-┃◈┃• mp3
-┃◈┃• mp4 
-┃◈┃• gemini
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-> ${config.DESCRIPTION}`;
+        let dec = `  
+╭━〔DOWNLOAD MENU 〕━⊷
+│   
+├➤ facebook
+├➤ mediafire
+├➤ tiktok
+├➤ twitter
+├➤ insta
+├➤ apk
+├➤ img
+├➤ spotify
+├➤ play
+├➤ play2
+├➤ play3
+├➤ tt2
+├➤ audio
+├➤ playx
+├➤ video
+├➤ video1
+├➤ ytmp3
+├➤ ytmp4
+├➤ pdf
+├➤ sss
+├➤ song
+├➤ darama
+├➤ git
+├➤ gdrive
+├➤ smovie
+├➤ baiscope
+├➤ ginisilia
+├➤ bible
+├➤ xxx
+├➤ mp3
+├➤ mp4
+├➤ gemini
+➢ ➣`;
 
         await conn.sendMessage(
             from,
