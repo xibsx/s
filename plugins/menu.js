@@ -1042,25 +1042,19 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
     try {
-        let text = `╭━━〔 *Ai Menu* 〕━━┈⊷
+        let buttons = [
+  { buttonId: "ai", buttonText: { displayText: "🤖 AI" }, type: 1 },
+  { buttonId: "gpt", buttonText: { displayText: "🧠 GPT" }, type: 1 },
+  { buttonId: "gemini", buttonText: { displayText: "🌟 Gemini" }, type: 1 }
+];
+
+let buttonMessage = {
+  image: { url: "https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg" },
+  caption: `╭━〔 *Ai Menu* 〕━⊷
 ┃◈ ai
 ┃◈ gpt
-┃◈ meta
-┃◈ blackbox
-┃◈ gpt3
-┃◈ bing
 ┃◈ gemini
-┃◈ copilot
-╰──────────────┈⊷`;
-
-        let buttons = [
-            { buttonId: "ai", buttonText: { displayText: "🤖 AI" }, type: 1 },
-            { buttonId: "gpt", buttonText: { displayText: "🧠 GPT" }, type: 1 },
-            { buttonId: "gemini", buttonText: { displayText: "🌟 Gemini" }, type: 1 }
-        ];
-
-        let buttonMessage = {
-            image: { url: `https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg` },
+╰──────────────⊷
             caption: text,
             footer: "DADMARK-XMD 💖🦄",
             buttons: buttons,
