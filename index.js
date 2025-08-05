@@ -133,7 +133,18 @@ initializeSession();
 });
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*HI I'M XIBS\n attention\nUser! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by ₓᵢʙₛ 🄷🄳 TECH INC. \ud83c\udf8a, Meet us WhatsApp Bot.\n\n *Thanks for using  \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/caseyweb/DADMARK-XMD\n\n> © Powered BY *乂丨乃丂* \ud83d\udda4`;
+  let up = `
+⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮ 
+⤬Sagittarius terminator⤬
+⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮
+█░█ █▀▀ █░ █░ █▀█ █  
+█▀█ ██▄ █▄ █▄ █▄█ ▄  
+╭━━〔 *OWNER*〕━━┈⊷    
+│prifix:${prefix}
+╰──┬─━〔 *X*〕━┈⊷  
+        ├─━〔  *I*〕━┈⊷
+        ├─━〔 *B*〕━┈⊷  
+        ╰─━〔 *S*〕━┈⊷`;
   conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/apuyxw.jpg` }, caption: up })
   }
   })
