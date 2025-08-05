@@ -1054,8 +1054,8 @@ let buttonMessage = {
 ┃◈ ai
 ┃◈ gpt
 ┃◈ gemini
-╰──────────────⊷
-            caption: text,
+╰──────────────⊷',
+            
             footer: "DADMARK-XMD 💖🦄",
             buttons: buttons,
             headerType: 4
