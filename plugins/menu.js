@@ -58,7 +58,293 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 │      ╰〔 EXIT 〕
 ╰────────────────╯
 ➢ ➣
-> ${config.DESCRIPTION}`;
+⤪⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮ 
+⤬ *EXPANDED MENU*    ⤬
+⤪⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮ 
+         ⤬⤬⤬
+     ⤪⤬⤬⤬⤬⤬⤬⤬⤮ 
+     ⤪⤬⤬⤬⤬⤬⤬⤬⤮ 
+     ⤪⤬⤬⤬⤬⤬⤬⤬⤮ 
+         ⤬⤬⤬
+         ⤬⤬⤬
+         ⤩⤩⤩ 
+╭━〔DOWNLOAD MENU 〕━⊷
+│   
+├➤ facebook
+├➤ mediafire
+├➤ tiktok
+├➤ twitter
+├➤ insta
+├➤ apk
+├➤ img
+├➤ spotify
+├➤ play
+├➤ play2
+├➤ play3
+├➤ tt2
+├➤ audio
+├➤ playx
+├➤ video
+├➤ video1
+├➤ ytmp3
+├➤ ytmp4
+├➤ pdf
+├➤ sss
+├➤ song
+├➤ darama
+├➤ git
+├➤ gdrive
+├➤ smovie
+├➤ baiscope
+├➤ ginisilia
+├➤ bible
+├➤ xxx
+├➤ mp3
+├➤ mp4
+├➤ gemini
+➢ ➣
+
+╭━〔GROUP MENU 〕━⊷
+│   
+├➤ grouplink
+├➤ kickall
+├➤ kickall2
+├➤ kickall3
+├➤ add
+├➤ remove
+├➤ kick
+├➤ promote
+├➤ demote
+├➤ dismiss
+├➤ revoke
+├➤ setgoodbye
+├➤ setwelcome
+├➤ delete
+├➤ getpic
+├➤ ginfo
+├➤ disappear on
+├➤ disappear off
+├➤ disappear 7D,24H
+├➤ allreq
+├➤ updategname
+├➤ updategdesc
+├➤ joinrequests
+├➤ senddm
+├➤ nikal
+├➤ mute
+├➤ unmute
+├➤ lockgc
+├➤ unlockgc
+├➤ invite
+├➤ tag
+├➤ hidetag
+├➤ tagall
+├➤ tagadmins
+➢ ➣
+
+╭━〔REACTIONS MENU〕 ━⊷
+│   
+├➤ bully
+├➤ cuddle
+├➤ cry
+├➤ hug
+├➤ awoo
+├➤ kiss
+├➤ lick
+├➤ pat
+├➤ smug
+├➤ bonk
+├➤ yeet
+├➤ blush
+├➤ smile
+├➤ wave
+├➤ highfive
+├➤ handhold
+├➤ nom
+├➤ bite
+├➤ glomp
+├➤ slap
+├➤ kill
+├➤ happy
+├➤ wink
+├➤ poke
+├➤ dance
+├➤ cringe
+➢ ➣
+
+╭━〔 FUN MENU 〕━⊷
+│   
+├➤ insult
+├➤ compatibility
+├➤ aura
+├➤ roast
+├➤ compliment
+├➤ lovetest
+├➤ emoji
+├➤ ringtone
+├➤ pickup
+├➤ ship
+├➤ character
+├➤ hack
+├➤ joke
+├➤ hrt
+├➤ hpy
+├➤ syd
+├➤ anger
+├➤ shy
+├➤ kiss
+├➤ mon
+├➤ cunfuzed
+├➤ getpp
+├➤ setpp
+├➤ hand
+├➤ nikal
+├➤ hold
+├➤ hug
+├➤ nikal
+├➤ hifi
+├➤ poke
+➢ ➣
+
+╭━〔 SETTINGS MENU 〕━⊷
+│   
+├➤ setprefix
+├➤ statusview
+├➤ mode
+├➤ statusreply
+├➤ alwaysonline
+├➤ autorecording
+├➤ autotyping
+├➤ setbotnumber
+├➤ anticall
+├➤ autovoice
+├➤ autosticker
+├➤ autoreply
+├➤ statusreact
+├➤ autoreact
+├➤ welcome
+├➤ customreacts
+├➤ antibad
+├➤ antibot
+├➤ antilink
+├➤ readmessage
+├➤ settings
+➢ ➣
+
+╭━〔 OTHER MENU 〕━⊷
+│   
+├➤ vv
+├➤ pair
+├➤ pair2
+├➤ fact
+├➤ font
+├➤ define
+├➤ news
+├➤ movie
+├➤ weather
+├➤ srepo
+├➤ insult
+├➤ save
+├➤ wikipedia
+├➤ gpass
+├➤ githubstalk
+├➤ yts
+├➤ ytv
+➢ ➣
+
+╭━〔 MAIN MENU 〕━⊷
+│   
+├➤ ping
+├➤ live
+├➤ alive
+├➤ runtime
+├➤ uptime
+├➤ repo
+├➤ owner
+├➤ menu
+├➤ menu2
+├➤ restart
+➢ ➣
+
+╭━〔 OWNER MENU 〕━⊷
+│   
+├➤ owner
+├➤ menu
+├➤ menu2
+├➤ listcmd
+├➤ allmenu
+├➤ repo
+├➤ block
+├➤ unblock
+├➤ fullpp
+├➤ setpp
+├➤ restart
+├➤ shutdown
+├➤ updatecmd
+├➤ alive
+├➤ ping
+├➤ gjid
+├➤ jid
+├➤ casey
+├➤ tinyurl
+├➤ bibelist
+├➤ get
+├➤ Terminate
+├➤ family
+├➤ test
+➢ ➣
+
+╭━〔 CONVERT MENU 〕━┈⊷
+│   
+├➤ sticker
+├➤ sticker2
+├➤ fancy
+├➤ photo
+├➤ take
+├➤ tomp3
+├➤ tts
+├➤ trt
+➢ ➣
+
+╭━〔  ANIME MENU 〕━⊷
+│   
+├➤ fack
+├➤ dog
+├➤ awoo
+├➤ garl
+├➤ waifu
+├➤ neko
+├➤ megnumin
+├➤ maid
+├➤ loli
+├➤ animegirl
+├➤ animegirl1
+├➤ animegirl2
+├➤ animegirl3
+├➤ animegirl4
+├➤ animegirl5
+├➤ anime1
+├➤ anime2
+├➤ anime3
+├➤ anime4
+├➤ anime5
+├➤ animenews
+├➤ foxgirl
+├➤ naruto
+➢ ➣
+
+╭━〔 AI MENU 〕━⊷
+│   
+├➤ ai
+├➤ gpt
+├➤ meta
+├➤ blackbox
+├➤ gpt3
+├➤ bing
+├➤ gemini
+├➤ copilot
+➢ ➣
+`;
 
         await conn.sendMessage(
             from,
