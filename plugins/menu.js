@@ -1042,19 +1042,16 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 *Ai Menu* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈┃• ai
-┃◈┃• gpt
-┃◈┃• meta
-┃◈┃• blackbox
-┃◈┃• gpt3
-┃◈┃• bing
-┃◈┃• gemini
-┃◈┃• copilot
-┃◈└───────────┈⊷
-╰──────────────┈⊷
-> ${config.DESCRIPTION}`;
+        let dec = `╭━〔 AI MENU 〕━⊷
+│   
+├➤ ai
+├➤ gpt
+├➤ meta
+├➤ blackbox
+├➤ gpt3
+├➤ bing
+├➤ gemini
+├➤ copilot`;
 
         await conn.sendMessage(
             from,
