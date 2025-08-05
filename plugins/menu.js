@@ -13,8 +13,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `
-        ⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮ 
+        let dec = ` ⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮ 
 ⤬ *SAGITTARIUSTERMINATOR* ⤬
 ⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮
 
@@ -64,7 +63,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/jicpyd.jpg` },
+                image: { url: `https://files.catbox.moe/apuyxw.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
