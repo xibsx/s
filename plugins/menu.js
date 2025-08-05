@@ -1127,5 +1127,31 @@ async (conn, mek, m, { from, reply }) => {
         reply("Samahani, kuna tatizo limetokea.");
     }
 });
+//test
+cmd({
+    pattern: /^aaa$/i, // Triggers when user types "aaa"
+    desc: "Send a Yes/No button",
+    category: "buttons",
+    react: "✅",
+    filename: __filename
+},
+async (conn, mek, m, { from, reply }) => {
+    try {
+        const buttonMessage = {
+            text: "Do you want to continue?",
+            footer: "Please choose",
+            buttons: [
+                { buttonId: "yes_option", buttonText: { displayText: "Yes" }, type: 1 },
+                { buttonId: "no_option", buttonText: { displayText: "No" }, type: 1 }
+            ],
+            headerType: 1
+        };
+
+        await conn.sendMessage(from, buttonMessage, { quoted: mek });
+    } catch (e) {
+        console.log(e);
+        reply("Samahani, kuna tatizo limetokea.");
+    }
+});
 /*test*/
 });
