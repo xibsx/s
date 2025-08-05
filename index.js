@@ -133,7 +133,7 @@ initializeSession();
 });
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there ✦ CASEY ✦ RHODES ✦ XMD ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by DADMARK TECH INC. \ud83c\udf8a, Meet ✦ DADMARK XMD ✦ WhatsApp Bot.\n\n *Thanks for using ✦ CASEY ✦ RHODES XMD ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/caseyweb/DADMARK-XMD\n\n> © Powered BY ✦ DADMARK ✦ XMD ✦ \ud83d\udda4`;
+  let up = `*Hello xibs there ✦ CASEY ✦ RHODES ✦ XMD ✦ User! \ud83d\udc4b\ud83c\udffb* \n\n> This is auser friendly whatsapp bot created by DADMARK TECH INC. \ud83c\udf8a, Meet ✦ DADMARK XMD ✦ WhatsApp Bot.\n\n *Thanks for using ✦ CASEY ✦ RHODES XMD ✦ \ud83d\udea9* \n\n> follow WhatsApp Channel :- 💖\n \nhttps://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/caseyweb/DADMARK-XMD\n\n> © Powered BY ✦ DADMARK ✦ XMD ✦ \ud83d\udda4`;
   conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/jicpyd.jpg` }, caption: up })
   }
   })
