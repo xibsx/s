@@ -1080,4 +1080,52 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         console.log(e);
         reply(`${e}`);
     }
+/*test*/
+cmd({
+    pattern: /^list$/i, // Triggers when user types "list"
+    desc: "Show bot command list",
+    category: "menu",
+    react: "📋",
+    filename: __filename
+},
+async (conn, mek, m, { from, reply }) => {
+    try {
+        const listMessage = {
+            text: "Hii ni orodha ya amri unazoweza kutumia:",
+            title: "Amri za Bot",
+            buttonText: "Chagua amri",
+            sections: [
+                {
+                    title: "Amri za Kawaida",
+                    rows: [
+                        { title: "WM", rowId: "wm-command", description: "Maelezo ya WM" },
+                        { title: "Brat", rowId: "brat-command", description: "Maelezo ya Brat" },
+                        { title: "QC", rowId: "qc-command", description: "Maelezo ya QC" },
+                        { title: "Tourl", rowId: "tourl-command", description: "Maelezo ya Tourl" },
+                    ],
+                },
+                {
+                    title: "Amri za Kundi",
+                    rows: [
+                        { title: "tagall", rowId: "tagall-command", description: "Kutag wanachama wote wa kundi." },
+                        { title: "hidetag", rowId: "hidetag-command", description: "Kutuma ujumbe bila jina la mtumaji." },
+                    ],
+                },
+                {
+                    title: "Owner Access",
+                    rows: [
+                        { title: "csesi", rowId: "csesi-command", description: "Amri ya mmiliki." },
+                        { title: "addprem / dellprem", rowId: "addprem-command", description: "Kusimamia watumiaji wa premium." },
+                    ],
+                },
+            ],
+        };
+
+        await conn.sendMessage(from, listMessage, { quoted: mek });
+    } catch (e) {
+        console.log(e);
+        reply("Samahani, kuna tatizo limetokea.");
+    }
+});
+/*test*/
 });
