@@ -1040,35 +1040,40 @@ cmd({
     react: "🤖",
     filename: __filename
 }, 
-async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let buttons = [
-  { buttonId: "ai", buttonText: { displayText: "🤖 AI" }, type: 1 },
-  { buttonId: "gpt", buttonText: { displayText: "🧠 GPT" }, type: 1 },
-  { buttonId: "gemini", buttonText: { displayText: "🌟 Gemini" }, type: 1 }
-];
+        let dec = `╭━〔 AI MENU 〕━⊷
+│   
+├➤ ai
+├➤ gpt
+├➤ meta
+├➤ blackbox
+├➤ gpt3
+├➤ bing
+├➤ gemini
+├➤ copilot`;
 
-let buttonMessage = {
-  image: { url: "https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg" },
-  caption: `╭━〔 *Ai Menu* 〕━⊷
-┃◈ ai
-┃◈ gpt
-┃◈ gemini
-╰──────────────⊷',
-            
-            footer: "DADMARK-XMD 💖🦄",
-            buttons: buttons,
-            headerType: 4
-        };
-
-        await conn.sendMessage(from, buttonMessage, { quoted: mek });
+        await conn.sendMessage(
+            from,
+            {
+                image: { url: `https://i.ibb.co/8gHCXCV9/IMG-20250216-WA0009.jpg` },
+                caption: dec,
+                contextInfo: {
+                    mentionedJid: [m.sender],
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363400354004723@newsletter',
+                        newsletterName: 'DADMARK-XMD 💖🦄',
+                        serverMessageId: 143
+                    }
+                }
+            },
+            { quoted: mek }
+        );
 
     } catch (e) {
         console.log(e);
         reply(`${e}`);
     }
-//});
-/*test*/
-
-/*test*/
 });
