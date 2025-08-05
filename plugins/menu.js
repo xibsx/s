@@ -13,44 +13,52 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━━《 *DADMARK 𝐗𝐌𝐃* 》━━━┈⊷
-┃❍⁠⁠⁠⁠╭──────────────
-┃❍⁠⁠⁠⁠│▸  *Usᴇʀ* : ${config.OWNER_NAME}
-┃❍⁠⁠⁠⁠│▸  *ʙᴀɪʟᴇʏs* : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
-┃❍⁠⁠⁠⁠│▸  *𝖳ʏᴘᴇ* : 𝐍𝐨𝐝𝐞𝐣𝐬
-┃❍⁠⁠⁠⁠│▸  *ᴘʟᴀᴛғᴏʀᴍ* : 𝐇𝐞𝐫𝐨𝐤𝐮
-┃❍⁠⁠⁠⁠│▸  *𝖣ᴇᴠᴇʟᴏᴘᴇʀ* : DADMARK
-┃❍⁠⁠⁠⁠│▸  *𝖬ᴏᴅᴇ* : [${config.MODE}]
-┃❍⁠⁠⁠⁠│▸  *𝖯ʀᴇғɪx* : [${config.PREFIX}]
-┃❍⁠⁠⁠⁠│▸  *𝖵ᴇʀsɪᴏɴ* : 𝟏.𝟎.𝟎
-┃❍⁠⁠⁠⁠╰──────────────
-╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *𝐌𝐄𝐍𝐔𝐋𝐈𝐒𝐓* 〕━━┈⊷
-┃❍╭─────────────·
-┃❍┃• PRAYERTIME
-┃❍┃• QURANMENU
-┃❍┃• AIMENU
-┃❍┃• ANIMEMENU
-┃❍┃• CONVERTMENU
-┃❍┃• FUNMENU
-┃❍┃• REACTIONMENU
-┃❍┃• DLMENU
-┃❍┃• SETTINGSMENU
-┃❍┃• LISTCMD
-┃❍┃• MAINMENU
-┃❍┃• TEMPMAIL
-┃❍┃• GROUPMENU
-┃❍┃• ALLMENU
-┃❍┃• BIBLELIST
-┃❍┃• OTHERMENU
-┃❍┃• OWNERMENU
-┃❍┃• LOGO>text
-┃❍┃• REPO
-┃❍┃• LOGOMENU
-┃❍┃• MPESAMENU
-┃❍┃• ADULTMENU
-┃❍└───────────┈⊷
-╰──────────────┈⊷
+        let dec = `
+        ⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮ 
+⤬ *SAGITTARIUSTERMINATOR* ⤬
+⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮
+
+
+█░█ █▀▀ █░ █░ █▀█ █  
+█▀█ ██▄ █▄ █▄ █▄█ ▄  
+╭━━〔 STATUS〕━━┈⊷    
+│USER: ${config.OWNER_NAME}
+│ MODE : [${config.MODE}]
+│ PREFIX : [${config.PREFIX}]  
+╰──┬─━〔 *X*〕━┈⊷  
+        ├─━〔  *I*〕━┈⊷
+        ├─━〔 *B*〕━┈⊷  
+        ╰─━〔 *S*〕━┈⊷
+
+╭━━〔 MENU 〕━━┈⊷
+│
+│
+├──┬〔  COMMANDS 〕
+│      ├➤ SETTINGSMENU
+│      ├➤ AIMENU
+│      ├➤ ALLMENU
+│      ├➤ ANIMEMENU
+│      ├➤ BIBLELIST
+│      ├➤ CONVERTMENU
+│      ├➤ DLMENU
+│      ├➤ FUNMENU
+│      ├➤ GROUPMENU
+│      ├➤ LISTCMD
+│      ├➤ LOGO>text
+│      ├➤ LOGOMENU
+│      ├➤ MAINMENU
+│      ├➤ MPESAMENU
+│      ├➤ OTHERMENU
+│      ├➤ OWNERMENU
+│      ├➤ PRAYERTIME
+│      ├➤ QURANMENU
+│      ├➤ REACTIONMENU
+│      ├➤ REPO
+│      ├➤ ADULTMENU
+│      ├➤ TEMPMAIL
+│      ╰〔 EXIT 〕
+╰────────────────╯
+➢ ➣
 > ${config.DESCRIPTION}`;
 
         await conn.sendMessage(
