@@ -1082,7 +1082,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     }
 /*test*/
 cmd({
-    pattern: /^list$/i, // Triggers when user types "list"
+    pattern: "xibs", // Triggers when user types "list"
     desc: "Show bot command list",
     category: "menu",
     react: "📋",
