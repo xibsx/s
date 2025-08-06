@@ -15,8 +15,9 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = ` ⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮ 
-⤬ *SAGITTARIUS*      ⤬
-⤪ ⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮
+⤬ *i-love-u*         ⤬
+⤬  Caroline        ⤬
+⤪⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤬⤮
 
 
 █░█ █▀▀ █░ █░ █▀█ █  
@@ -29,7 +30,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         ├─━〔  *I*〕━┈⊷
         ├─━〔 *B*〕━┈⊷  
         ╰─━〔 *S*〕━┈⊷
-
+hahaha 😂 life is 
+good if u have person 
+how u love 💕 
 ╭━━〔 MENU 〕━━┈⊷
 │
 │
